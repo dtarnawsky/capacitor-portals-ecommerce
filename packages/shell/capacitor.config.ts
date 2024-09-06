@@ -6,7 +6,7 @@ const capacitorConfig: CapacitorConfig = {
   webDir: '../shell/build',
   bundledWebRuntime: false,
   plugins: {
-    Portals: {
+    FederatedCapacitor: {
       shell: {
         name: 'shell',
         webDir: './build',
@@ -21,8 +21,8 @@ const capacitorConfig: CapacitorConfig = {
           name: 'account',
           webDir: '../account/build',
           liveUpdateConfig: {
-          appId: "3fde24f8",
-          channel: "production",
+            appId: "3fde24f8",
+            channel: "production",
             autoUpdateMethod: "none"
           }
         },
